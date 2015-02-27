@@ -1,0 +1,28 @@
+body {
+  background: #990000;
+}
+
+.image-center {
+  margin-top: 5%;
+  margin-left: 30%;
+}
+
+.image-center > img {
+  visibility: hidden;
+  position: absolute;
+  /*top: 50%;*/
+  display: block;
+  /*left: 50%;*/
+  /*min-height: 500px;*/
+  /*min-width: 300px;*/
+}
+
+.instruction-bar {
+  background-color: rgba(0, 0, 0, 0.5);
+  position:absolute;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+  font-size: 80px;
+  text-align: center;
+}
